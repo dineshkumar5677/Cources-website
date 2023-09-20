@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .quality{
+            
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    padding: 10px 100px;
+    flex-wrap: wrap;
+    background-image: url(orange-texture.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-origin: border-box;
+    background-size: 286px;
+        }
+
+        .quality-box {
+
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            padding: 25px;
+            flex-direction: column;
+            width: 23rem;
+            text-align: left;
+            transition: .2s ease-in;
+            height: 30rem;
+            cursor: pointer;
+        }
+
+        .quality-box:hover {
+
+            border: none;
+            box-shadow: 0px 0px 60px 0px #b4b4b4;
+            border-radius: 11px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav" class="navbar">
+        <div class="dd">
+           <a href="index.html"> <img src="logo.png" alt="" class="logo"></a>
+            <ul class="top-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cource.html">Cources</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <a href="../../../github protfolio/form/index.html"> <button class="log">Log In</button></a>
+            <a href="../../../github protfolio/form/index.html"> <button class="btn">Sign In</button></a>
+        </div>
+
+    </nav>
+    <div class="home1">
+        <h1 class="heading">
+            Find Your Desired Cource Fast Now
+        </h1>
+        <div class="phone1">
+            <form action=""><input  id="inputField" placeholder="Search For Your Cources" type="text"><div style="cursor: pointer;" onclick="checkAndOpen()" type="submit"
+                    class="send1">Search Now</div></form>
+        </div>
+
+
+
+    </div>
+    <div class="cource-heading">
+        There Are All Cources Offered
+    </div>
+    <div class="quality">
+        <a href="display-python.html">
+            <div class="quality-box"><img src="python.png" alt="">
+                <h2>python</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur
+                    quidem, illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo
+                    incidunt vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque
+                    fugiat ipsam.</P>
+        </a>
+    </div>
+
+    <a href="display-js.html">
+        <div class="quality-box"><img src="javascript.svg" alt="">
+            <h2>JavaScript</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+
+    <a href="display-java.html">
+        <div class="quality-box"><img src="java.png" alt="">
+            <h2>Java</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+
+    
+    <a href="display-php.html">
+        <div class="quality-box"><img src="php.svg" alt="">
+            <h2>PHP</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+    <a href="display-sql.html">
+        <div class="quality-box"><img src="sql.png" alt="">
+            <h2>My SQL</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+    <a href="display-dj.html">
+        <div class="quality-box"><img src="dj.svg" alt="">
+            <h2>Django</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+    <a href="display-flask.html">
+        <div class="quality-box"><img src="flask.svg" alt="">
+            <h2>Flask</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+    <a href="display-c.html">
+        <div class="quality-box"><img src="c.svg" alt="">
+            <h2>C++</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+    <a href="display-html.html">
+        <div class="quality-box"><img src="html.svg" alt="">
+            <h2>HTML</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+    <a href="display-css.html">
+        <div class="quality-box"><img src="css.svg" alt="">
+            <h2>CSS</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+    <a href="display-kotlin.html">
+        <div class="quality-box"><img src="kotlin.svg" alt="">
+            <h2>Kotlin</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus doloremque, consectetur quidem,
+                illo nemo adipisci quaerat accusamus beatae minima corporis inventore! Totam deserunt nemo incidunt
+                vitae unde nobis laboriosam eaque aperiam accusamus maxime beatae, ipsa molestias itaque fugiat ipsam.
+            </P>
+    </a>
+    </div>
+
+
+    <footer class="foot">
+        <div class="foot-box">
+            <img src="logo.png" alt="" class="logo1">
+            <div class="social">
+                
+                <a href="https://pinterest.com/"><img src="pint.svg" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="facebook.svg" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="insta.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="last">
+            <center>
+            <p>All Rights Reserved &copy 2023</p></center>
+        </div>
+
+    </footer>
+
+    </div>
+
+
+    
+
+
+<script>
+    function checkAndOpen() {console.log("hello");
+    // Get the input field value
+    var inputValue = document.getElementById("inputField").value;
+
+    // Check if the input value matches a specific condition
+    if (inputValue === "python") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-python.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "javascript") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-js.html";
+        nav.innerHTML= none;
+    }
+    else if (inputValue === "java") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-java.html";
+        nav.innerHTML= none;
+    } 
+     else if (inputValue === "php") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-php.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "sql") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-sql.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "django") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-dj.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "flask") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-flask.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "c++") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-c.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "html") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-html.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "css") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-css.html";
+        nav.innerHTML= none;
+    }
+     else if (inputValue === "kotlin") {
+        // If the value matches, open the desired HTML file (e.g., "desired.html")
+        window.location.href = "display-kotlin.html";
+        nav.innerHTML= none;
+    }
+    else {
+        
+        // If the value does not match, you can display an error message or take other actions
+        alert("Invalid input. Please try again.");
+    }
+}
+
+</script>
+
+
+</body>
+
+</html>
